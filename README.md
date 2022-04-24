@@ -26,3 +26,5 @@ The purpose of the analysis is to examine a credit card dataset and predict cred
 
 ## Summary:
 
+To summarize the results for the machine learning models, the precision average for the test showed strong results for all six, but doesn't mean much. When looking at the recall average, we can clearly see that both Balanced Random Forest Classifier and Easy Ensemble AdaBoost Classifier had a higher percentage compared to the other four models. Additionally, these two models also performs well in the f1-score, ~90% - ~95%, while Undersampling ClusterCentroids performs the worse, 56%, and the other three are more or less average, ~70% - ~80%.
+With all six models giving varying results and having minor similarity, I felt that either Balanced Random Forest Classifier or Easy Ensemble AdaBoost Classifier would be the ideal models to use as the results showed higher percentage in the chart.
